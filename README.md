@@ -45,3 +45,5 @@ Accuracy is averaged over 3 different random seeds except 5-gram and human. The 
 Taiga Someya and Yohei Oseki. 2023. JBLiMP: Japanese Benchmark of Linguistic Minimal Pairs. In Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume, pages ??-??, Dubrovnik, Croatia. Association for Computational Linguistics.
 ```
 
+# Licence
+Most of the example sentences are extracted from the linguistic journals without any modification. Hence, in most cases, the copyright of the example sentences remains with the original authors or publishers.
