@@ -27,4 +27,7 @@ We evaluated the syntactic knowledge of several language models on JBLiMP: GPT-2
 
 
 # Recommended Citation
+```
+Taiga Someya and Yohei Oseki. 2023. JBLiMP: Japanese Benchmark of Linguistic Minimal Pairs. In Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume, pages ??-??, Dubrovnik, Croatia. Association for Computational Linguistics.
+```
 
