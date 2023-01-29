@@ -2,7 +2,7 @@
 
 JBLiMP is a novel dataset for targeted syntactic evaluations of language models in Japanese. JBLiMP consists of 331 minimal pairs, which are created based on acceptability judgments extracted from journal articles in theoretical linguistics. These minimal pairs are grouped into 11 categories, each covering a different linguistic phenomenon. 
 
-We evaluated the syntactic knowledge of several language models on JBLiMP: GPT-2, LSTM, and _n_-gram language models trained by (Kuribayashi et al, 2021). All the models achieved comparative accuracy around 75% and human baseline accuracy was 90.90%.
+
 
 ## Contents
 - 
@@ -24,6 +24,9 @@ We evaluated the syntactic knowledge of several language models on JBLiMP: GPT-2
 |phenomenon|Categorization based on linguistic phenomena|
 |phenomenon-2|Categorization based on linguistic phenomena|
 |paradigm|Sub-categorization of phenomenon|
+
+## Model Evaluation
+We evaluated the syntactic knowledge of several language models on JBLiMP: GPT-2, LSTM, and _n_-gram language models trained by (Kuribayashi et al, 2021). All the models achieved comparative accuracy around 76% and human baseline accuracy was 90.90%.
 
 
 # Recommended Citation
