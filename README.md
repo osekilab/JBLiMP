@@ -8,7 +8,7 @@ JBLiMP is a novel dataset for targeted syntactic evaluations of language models 
 - Minimal pairs after human validation (331 pairs) can be found in `JBLiMP/data/validated`.
     - In order to validate the quality of minimal pairs in JBLiMP, we conducted an acceptability judgement experiment. For each minimal pair, if the annotation of JBLiMP and the majority vote of human annotations do not match, that minimal pair is removed from JBLiMP.
     - **These human-validated minimal pairs were used for the evaluation of our language models.**
-- Our paper accepted in EACL 2023 can be found in `JBLiMP/paper/someya_oseki_2023.pdf'
+- Our paper accepted in EACL 2023 can be found in `JBLiMP/paper/someya_oseki_2023.pdf`.
 
 ## Data Format
 |Name|Description|
