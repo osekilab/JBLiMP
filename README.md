@@ -41,10 +41,25 @@ We evaluated the syntactic knowledge of several language models on JBLiMP: GPT-2
 
 Accuracy is averaged over 3 different random seeds except 5-gram and human. The numbers in bold indicate the best score within a model, while the number with underscore indicates the worst score
 
-# Recommended Citation
-```
-Taiga Someya and Yohei Oseki. 2023. JBLiMP: Japanese Benchmark of Linguistic Minimal Pairs. In Findings of the Association for Computational Linguistics: EACL 2023, pages 1581–1594, Dubrovnik, Croatia. Association for Computational Linguistics.
-```
-
 # Licence
-Most of the example sentences are extracted from the linguistic journals without any modification. Hence, in most cases, the copyright of the example sentences remains with the original authors or publishers.
+The text in this corpus is excerpted from the published works, and copyright (where applicable) remains with the original authors or publishers. We expect that research use within Japan is legal under fair use, but make no guarantee of this.
+
+# Citation
+```
+@inproceedings{someya-oseki-2023-jblimp,
+    title = "{JBL}i{MP}: {J}apanese Benchmark of Linguistic Minimal Pairs",
+    author = "Someya, Taiga  and
+      Oseki, Yohei",
+    editor = "Vlachos, Andreas  and
+      Augenstein, Isabelle",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2023",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-eacl.117/",
+    doi = "10.18653/v1/2023.findings-eacl.117",
+    pages = "1581--1594",
+    abstract = "In this paper, we introduce JBLiMP (Japanese Benchmark of Linguistic Minimal Pairs), a novel dataset for targeted syntactic evaluations of language models in Japanese. JBLiMP consists of 331 minimal pairs, which are created based on acceptability judgments extracted from journal articles in theoretical linguistics. These minimal pairs are grouped into 11 categories, each covering a different linguistic phenomenon. JBLiMP is unique in that it successfully combines two important features independently observed in existing datasets: (i) coverage of complex linguistic phenomena (cf. CoLA) and (ii) presentation of sentences as minimal pairs (cf. BLiMP). In addition, JBLiMP is the first dataset for targeted syntactic evaluations of language models in Japanese, thus allowing the comparison of syntactic knowledge of language models across different languages. We then evaluate the syntactic knowledge of several language models on JBLiMP: GPT-2, LSTM, and n-gram language models. The results demonstrated that all the architectures achieved comparable overall accuracies around 75{\%}. Error analyses by linguistic phenomenon further revealed that these language models successfully captured local dependencies like nominal structures, but not long-distance dependencies such as verbal agreement and binding."
+}
+```
