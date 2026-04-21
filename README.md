@@ -42,8 +42,8 @@ We evaluated the syntactic knowledge of several language models on JBLiMP: GPT-2
 Accuracy is averaged over 3 different random seeds except 5-gram and human. The numbers in bold indicate the best score within a model, while the number with underscore indicates the worst score
 
 # Licence
-The text in this corpus is excerpted from the published works, and copyright (where applicable) remains with the original authors or publishers. We expect that research use within Japan is legal under fair use, but make no guarantee of this.
-
+[CC BY-SA 4.0
+](https://creativecommons.org/licenses/by-sa/4.0/)
 # Citation
 ```
 @inproceedings{someya-oseki-2023-jblimp,
